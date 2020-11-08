@@ -7,7 +7,7 @@
 
    - Template
 
-     <img src="C:\Projects\Learning\Algorithm\homework\algorithm018\week03\RecursionTemplate.png" style="zoom:67%;" />
+     <img src="RecursionTemplate.png" style="zoom:67%;" />
 
 2. Divide and conquer
 
@@ -19,7 +19,7 @@
 
    Template
 
-   <img src="C:\Projects\Learning\Algorithm\homework\algorithm018\week03\DivideAndConquerTemplate.png" alt="image-2020110822150982" style="zoom: 50%;" />
+   <img src="DivideAndConquerTemplate.png" alt="image-2020110822150982" style="zoom: 50%;" />
 
    
 

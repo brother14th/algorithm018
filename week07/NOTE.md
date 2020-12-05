@@ -25,32 +25,32 @@ Bidirectional BFS
 
 Template
 
-​		`beginSet={initial node}`
-
-​        `endSet={end node}`
-
-​		`level=2;`
-
-​		`While(beginSet != empty)`
-
-​			`newSet={}`
-
-​			 `foreach node in beginSet`               
-
-​                        `foreach adjacent node`
-
-​                                    `if adjacent node in endSet  return level/result`
-
-​                                    `else`
-
-​											`if (adjacent node not visited) add adjacent node to newSet`
-
-​				`if (newSet.Count<endSet.Count) beginSet=newSet`
-
-​				`else` 
-
-​					 `beginSet=endSet`
-
-​					`endSet=newSet`	
-
-​     	 `level++;`
+		beginSet={initial node}
+	
+	    endSet={end node}
+	
+		level=2;
+	
+		While(beginSet != empty)
+	
+			newSet={}
+	
+			 foreach node in beginSet               
+	
+	                    foreach adjacent node
+	
+	                                if adjacent node in endSet  return level/result
+	
+	                                else
+	
+											if (adjacent node not visited) add adjacent node to newSet
+	
+				if (newSet.Count<endSet.Count) beginSet=newSet
+	
+				else 
+	
+					 beginSet=endSet
+	
+					endSet=newSet	
+	
+	 	 level++;

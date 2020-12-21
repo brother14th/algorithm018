@@ -39,6 +39,25 @@ https://www.educative.io/edpresso/what-is-the-knuth-morris-pratt-algorithm
 
 
 
+Unique Path II
+
+```
+ if(obstacleGrid[i][j] == 1 )
+ 	op[i,j] = 0;
+ else if(i==0&&j==0)
+    op[i,j] = 1;
+ else if (i==0)
+    op[i,j] = op[i,j-1];
+ else if (j==0)
+ 	op[i,j] = op[i-1,j];
+ else
+    op[i,j] = op[i,j-1] + op[i-1,j];
+```
+
+
+
+​    
+
 
 
 
